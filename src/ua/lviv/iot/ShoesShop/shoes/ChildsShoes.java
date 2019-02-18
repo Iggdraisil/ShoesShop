@@ -21,4 +21,27 @@ public class ChildsShoes extends Shoes {
         this.childsAge = childsAge;
     }
 
+    public boolean isAnatomicLast() {
+        return anatomicLast;
+    }
+
+    public void setAnatomicLast(boolean anatomicLast) {
+        this.anatomicLast = anatomicLast;
+    }
+
+    public boolean isSupinator() {
+        return supinator;
+    }
+
+    public void setSupinator(boolean supinator) {
+        this.supinator = supinator;
+    }
+
+    public ChildsAge getChildsAge() {
+        return childsAge;
+    }
+
+    public void setChildsAge(ChildsAge childsAge) {
+        this.childsAge = childsAge;
+    }
 }

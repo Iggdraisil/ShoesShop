@@ -12,7 +12,7 @@ public class ShoesShopManager {
     ArrayList<Shoes> list = new ArrayList<>();
 
     public void printListOfShoes(ArrayList<Shoes> list){
-        for (int i=0;i<list.size();i++)
+        for (int i=0; i<list.size(); i++)
             System.out.println(list.get(i).toString());
     }
 
@@ -30,14 +30,14 @@ public class ShoesShopManager {
         return list;
     }
 
-    public ArrayList<Shoes> filTerByRole(Role role){
-        ArrayList<Shoes> filteredShoesList = list.stream().filter(shoes -> shoes.getRole()==role).collect(Collectors
+    public ArrayList<Shoes> filterByRole(Role role){
+        ArrayList<Shoes> filteredShoesList = list.stream().filter(shoes -> shoes.getRole() == role).collect(Collectors
                 .toCollection(ArrayList::new));
         return filteredShoesList;
 
     }
     public ArrayList<Shoes> filterBySize(int size){
-        ArrayList<Shoes> filteredShoesList = list.stream().filter(shoes -> shoes.getSize()==size).collect(Collectors
+        ArrayList<Shoes> filteredShoesList = list.stream().filter(shoes -> shoes.getSize() == size).collect(Collectors
                 .toCollection(ArrayList::new));
         for (int i=0;i<filteredShoesList.size();i++) {
             System.out.println(filteredShoesList.get(i).toString());
@@ -45,21 +45,13 @@ public class ShoesShopManager {
             return filteredShoesList;
     }
     ShoesShopManager(){
-        list.add(new Shoes(42,"Blue", Material.LEATHER,5000, Seasons.SUMMER,Role.MEN,"LaCosta"));
-        list.add(new Shoes(46,"Black",Material.SHMIT,500,Seasons.SUMMER,Role.WOMEN,"Abibas"));
-        list.add(new ChildsShoes(23,"White",Material.LEATHER,4000,Seasons.SUMMER,
-                Role.CHILD,"Antoshka", true, true,ChildsAge.SEVEN_TO_TWELVE));
-        list.add(new ChildsShoes(12,"Rainbow",Material.RUBBER,1000,Seasons.DEMISEASON,
-                Role.CHILD,"Lolikon",false, true,ChildsAge.ZERO_TO_THREE));
-        list.add(new SportShoes(39, "Purple",Material.DERAMANTINE,3000,Seasons.DEMISEASON,
-                Role.SPORT, "Nike", "Running", true));
-        list.add(new SportShoes(45,"Blue",Material.SHMIT,100,Seasons.SUMMER,
-                Role.SPORT,"CoyoPC","Walking",false));
-
-
     }
 
+    public ArrayList<Shoes> getList() {
+        return list;
+    }
 
-
-
+    public void setList(ArrayList<Shoes> list) {
+        this.list = list;
+    }
 }
