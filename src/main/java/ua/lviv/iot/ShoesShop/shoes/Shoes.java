@@ -12,7 +12,8 @@ public class Shoes {
 
     public Shoes(final int importedSize, final String importedColor,
                  final Material importedMaterial, final int importedPrice,
-                 final Seasons importedSeason, final Role importedRole, final String importedBrand) {
+                 final Seasons importedSeason, final Role importedRole,
+                 final String importedBrand) {
         this.size = importedSize;
         this.color = importedColor;
         this.material = importedMaterial;

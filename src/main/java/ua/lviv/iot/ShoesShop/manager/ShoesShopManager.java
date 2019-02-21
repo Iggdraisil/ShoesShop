@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class ShoesShopManager {
     private ArrayList<Shoes> list = new ArrayList<>();
 
-    ShoesShopManager() {
+    public ShoesShopManager() {
     }
 
     public void printListOfShoes(final ArrayList<Shoes> listToPrint) {
@@ -19,8 +19,7 @@ public class ShoesShopManager {
     }
 
     public ArrayList<Shoes> sortByPrice(final SortType sortType) {
-        Collections.sort(list, (p1, p2) -> Double
-                .compare(p1.getPrice(), p2.getPrice()));
+        list.sort((p1, p2) -> Double.compare(p1.getPrice(), p2.getPrice()));
         if (sortType == SortType.DESCENDING) {
             Collections.reverse(list);
         }
@@ -47,9 +46,6 @@ public class ShoesShopManager {
         ArrayList<Shoes> filteredShoesList = list.stream()
                 .filter(shoes -> shoes.getSize() == size)
                     .collect(Collectors.toCollection(ArrayList::new));
-        for (int i = 0; i < filteredShoesList.size(); i++) {
-            System.out.println(filteredShoesList.get(i).toString());
-        }
         return filteredShoesList;
     }
 
