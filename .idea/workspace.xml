@@ -3,32 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="868e198a-f9cf-404d-bdbe-783324a2bb19" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Shoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Shoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/MainTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ShoesShop-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ShoesShop-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ua.lviv.iot/ShoesShop/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/ua.lviv.iot/ShoesShop/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ua.lviv.iot/ShoesShop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/ua.lviv.iot/ShoesShop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/SortType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/SortType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/ChildsAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/ChildsAge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/ChildsShoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/ChildsShoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Material.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Material.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Seasons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Seasons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Shoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/Shoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/SportShoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/shoes/SportShoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ua.lviv.iot/ShoesShop/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/ua.lviv.iot/ShoesShop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/ShoesShop/manager/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/spotbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/spotbugs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spotbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spotbugsXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,17 +45,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ShoesShop$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1550739758954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ShoesShop$ShoesShopManagerTest_setList.ic" NAME="ShoesShopManagerTest.setList Coverage Results" MODIFIED="1550821722698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.lviv.iot.ShoesShop.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ShoesShop$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1550768466709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ua.lviv.iot.ShoesShop.manager.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ShoesShop$All_in_ShoesShop__1_.ic" NAME="All in ShoesShop (1) Coverage Results" MODIFIED="1550769735263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ShoesShop$ShoesShopManagerTest.ic" NAME="ShoesShopManagerTest Coverage Results" MODIFIED="1550822035896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.lviv.iot.ShoesShop.test.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="119">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,34 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/ChildsShoes.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/MainTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+            <state relative-caret-position="386">
+              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,8 +112,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Shoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="748">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+              <folding>
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1393#1394#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/SportShoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -158,11 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Seasons.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/SportShoes.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Shoes.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java" />
       </list>
     </option>
   </component>
@@ -196,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,70 +273,19 @@
             </path>
             <path>
               <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="lviv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="lviv" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="lviv" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="lviv" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="lviv" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="ShoesShop" type="462c0819:PsiDirectoryNode" />
-              <item name="shoes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoesShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sun_checks.xml" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -358,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ShoesShopManagerTest">
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.ShoesShop.manager.MainTest" />
       <module name="ShoesShop" />
@@ -372,8 +324,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in ShoesShop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoesShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ShoesShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoesShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoesShopManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoesShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.ShoesShop.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.ShoesShop.test" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.ShoesShop.test.ShoesShopManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoesShopManagerTest.setList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoesShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.ShoesShop.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.ShoesShop.test" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.ShoesShop.test.ShoesShopManagerTest" />
+      <option name="METHOD_NAME" value="setList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoesShopManagerTest" />
+        <item itemvalue="JUnit.ShoesShopManagerTest.setList" />
+        <item itemvalue="JUnit.All in ShoesShop (1)" />
+        <item itemvalue="JUnit.All in ShoesShop" />
         <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
@@ -391,6 +394,35 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ShoesShopManagerTest - 2019.02.21 at 19h 01m 31s.xml">
+      <configuration name="ShoesShopManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ShoesShop - 2019.02.21 at 19h 05m 10s.xml">
+      <configuration name="All in ShoesShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ShoesShop_(1) - 2019.02.21 at 19h 05m 20s.xml">
+      <configuration name="All in ShoesShop (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ShoesShop_(1) - 2019.02.21 at 19h 13m 50s.xml">
+      <configuration name="All in ShoesShop (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ShoesShop_(1) - 2019.02.21 at 19h 22m 16s.xml">
+      <configuration name="All in ShoesShop (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoesShopManagerTest_setList - 2019.02.21 at 19h 51m 39s.xml">
+      <configuration name="ShoesShopManagerTest.setList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoesShopManagerTest_setList - 2019.02.22 at 09h 48m 44s.xml">
+      <configuration name="ShoesShopManagerTest.setList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoesShopManagerTest - 2019.02.22 at 09h 49m 24s.xml">
+      <configuration name="ShoesShopManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoesShopManagerTest - 2019.02.22 at 09h 53m 57s.xml">
+      <configuration name="ShoesShopManagerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -406,9 +438,9 @@
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.295302" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.32147652" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="3" weight="0.3286119" />
@@ -420,9 +452,9 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Maven" order="1" visible="true" weight="0.03691275" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.29127517" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
@@ -451,30 +483,10 @@
     <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/ShoesShop/manager/MainTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/ChildsAge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,20 +497,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/MainTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/manager/ShoesShopManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="119">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -528,15 +541,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/Shoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="748">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/iot/ShoesShop/shoes/SportShoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/lviv/iot/ShoesShop/test/ShoesShopManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

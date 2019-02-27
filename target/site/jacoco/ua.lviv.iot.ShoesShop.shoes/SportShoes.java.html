@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SportShoes.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ShoesShop</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.ShoesShop.shoes</a> &gt; <span class="el_source">SportShoes.java</span></div><h1>SportShoes.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.ShoesShop.shoes;
+
+public class SportShoes extends Shoes {
+    private String sportType;
+    private boolean specialEnhancements;
+
+    public SportShoes(final int size, final String color, final Material material,
+                      final int price, final Seasons season,
+                      final Role role, final String brand,
+                      final String importedSportType,
+                      final boolean importedSpecialEnhancements) {
+<span class="fc" id="L12">        super(size, color, material, price, season, role, brand);</span>
+<span class="fc" id="L13">        this.sportType = importedSportType;</span>
+<span class="fc" id="L14">        this.specialEnhancements = importedSpecialEnhancements;</span>
+<span class="fc" id="L15">    }</span>
+
+    @Override
+    public String toString() {
+<span class="fc" id="L19">        return super.toString()+ &quot;sportType='&quot; + sportType + '\''</span>
+                + &quot;, specialEnhancements=&quot; + specialEnhancements + '}';
+    }
+
+    public String getSportType() {
+<span class="nc" id="L24">        return sportType;</span>
+    }
+
+    public void setSportType(final String importedSportType) {
+<span class="nc" id="L28">        this.sportType = importedSportType;</span>
+<span class="nc" id="L29">    }</span>
+
+    public boolean isSpecialEnhancements() {
+<span class="nc" id="L32">        return specialEnhancements;</span>
+    }
+
+    public void setSpecialEnhancements(final boolean importedSpecialEnhancements) {
+<span class="nc" id="L36">        this.specialEnhancements = importedSpecialEnhancements;</span>
+<span class="nc" id="L37">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>
