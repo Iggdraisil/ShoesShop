@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ChildsShoes.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ShoesShop</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.ShoesShop.shoes</a> &gt; <span class="el_source">ChildsShoes.java</span></div><h1>ChildsShoes.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.ShoesShop.shoes;
+
+public class ChildsShoes extends Shoes {
+    private boolean anatomicLast;
+    private boolean supinator;
+    private ChildsAge childsAge;
+
+    public String toString() {
+<span class="fc" id="L9">        return super.toString() + &quot;anatomicLast=&quot; + anatomicLast</span>
+                + &quot;, supinator=&quot; + supinator + &quot;, childsAge=&quot;
+                + childsAge + '}';
+    }
+
+    public ChildsShoes(final int size, final String color, final Material material,
+                       final int price, final Seasons season, final Role role, final String brand,
+                       final boolean importedAnatomicLast, final boolean importedSupinator,
+                       final ChildsAge importedChildsAge) {
+<span class="fc" id="L18">        super(size, color, material, price, season, role, brand);</span>
+<span class="fc" id="L19">        this.anatomicLast = importedAnatomicLast;</span>
+<span class="fc" id="L20">        this.supinator = importedSupinator;</span>
+<span class="fc" id="L21">        this.childsAge = importedChildsAge;</span>
+<span class="fc" id="L22">    }</span>
+
+    public boolean isAnatomicLast() {
+<span class="nc" id="L25">        return anatomicLast;</span>
+    }
+
+    public void setAnatomicLast(final boolean importedAnatomicLast) {
+<span class="nc" id="L29">        this.anatomicLast = importedAnatomicLast;</span>
+<span class="nc" id="L30">    }</span>
+
+    public boolean isSupinator() {
+<span class="nc" id="L33">        return supinator;</span>
+    }
+
+    public void setSupinator(final boolean importedSupinator) {
+<span class="nc" id="L37">        this.supinator = importedSupinator;</span>
+<span class="nc" id="L38">    }</span>
+
+    public ChildsAge getChildsAge() {
+<span class="nc" id="L41">        return childsAge;</span>
+    }
+
+    public void setChildsAge(final ChildsAge importedChildsAge) {
+<span class="nc" id="L45">        this.childsAge = importedChildsAge;</span>
+<span class="nc" id="L46">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

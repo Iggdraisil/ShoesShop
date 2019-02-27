@@ -39,9 +39,6 @@ public class ShoesShopManager {
     public ArrayList<Shoes> filterBySize(int size){
         ArrayList<Shoes> filteredShoesList = list.stream().filter(shoes -> shoes.getSize() == size).collect(Collectors
                 .toCollection(ArrayList::new));
-        for (int i=0;i<filteredShoesList.size();i++) {
-            System.out.println(filteredShoesList.get(i).toString());
-        }
             return filteredShoesList;
     }
     ShoesShopManager(){

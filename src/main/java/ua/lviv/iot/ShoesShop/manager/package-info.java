@@ -1,0 +1,1 @@
+package ua.lviv.iot.ShoesShop.manager;
