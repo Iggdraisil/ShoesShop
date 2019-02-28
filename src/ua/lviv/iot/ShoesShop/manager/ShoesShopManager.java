@@ -1,6 +1,6 @@
-package ua.lviv.iot.ShoesShop.manager;
+package ua.lviv.iot.shoes_shop.manager;
 
-import ua.lviv.iot.ShoesShop.shoes.*;
+import ua.lviv.iot.shoes_shop.shoes.*;
 
 import java.util.ArrayList;
 import java.util.Collections;

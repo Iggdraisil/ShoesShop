@@ -1,4 +1,4 @@
-package ua.lviv.iot.ShoesShop.shoes;
+package ua.lviv.iot.shoes_shop.shoes;
 
 
 public class Shoes {
@@ -32,6 +32,15 @@ public class Shoes {
                 + material + ", price=" + price
                 + ", season=" + season
                 + ", role=" + role + ", brand='" + brand + '\'' + '}';
+    }
+
+    public String getHeaders() {
+        return "Size, Color, Material, Price, Season, Role, Brand";
+    }
+
+    public String toCSV() {
+        return size + ", " + color + ", " + material + ", "
+                + price + ", " + season + ", " + role + ", " + brand;
     }
 
     public int getSize() {
