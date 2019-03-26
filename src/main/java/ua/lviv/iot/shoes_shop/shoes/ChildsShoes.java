@@ -1,4 +1,4 @@
-package ua.lviv.iot.ShoesShop.shoes;
+package ua.lviv.iot.shoes_shop.shoes;
 
 public class ChildsShoes extends Shoes {
     private boolean anatomicLast;
@@ -11,22 +11,36 @@ public class ChildsShoes extends Shoes {
                 + childsAge + '}';
     }
 
-    public ChildsShoes(final int size, final String color, final Material material,
-                       final int price, final Seasons season, final Role role, final String brand,
-                       final boolean importedAnatomicLast, final boolean importedSupinator,
+    public ChildsShoes(final int size, final String color,
+                       final Material material,
+                       final int price, final Seasons season,
+                       final Role role, final String brand,
+                       final boolean impAnatomicLast,
+                       final boolean importedSupinator,
                        final ChildsAge importedChildsAge) {
         super(size, color, material, price, season, role, brand);
-        this.anatomicLast = importedAnatomicLast;
+        this.anatomicLast = impAnatomicLast;
         this.supinator = importedSupinator;
         this.childsAge = importedChildsAge;
+    }
+
+    @Override
+    public String getHeaders() {
+        return super.getHeaders() + ", Anatomic last, Supinator, Childs age";
+    }
+
+    @Override
+    public String toCSV() {
+        return super.toCSV() + ", " + anatomicLast + ", "
+                + supinator + ", " + childsAge;
     }
 
     public boolean isAnatomicLast() {
         return anatomicLast;
     }
 
-    public void setAnatomicLast(final boolean importedAnatomicLast) {
-        this.anatomicLast = importedAnatomicLast;
+    public void setAnatomicLast(final boolean impAnatomicLast) {
+        this.anatomicLast = impAnatomicLast;
     }
 
     public boolean isSupinator() {

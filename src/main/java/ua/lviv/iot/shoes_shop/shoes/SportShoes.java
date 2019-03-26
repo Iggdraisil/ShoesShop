@@ -1,23 +1,33 @@
-package ua.lviv.iot.ShoesShop.shoes;
+package ua.lviv.iot.shoes_shop.shoes;
 
 public class SportShoes extends Shoes {
     private String sportType;
-    private boolean specialEnhancements;
+    private boolean specEnhancements;
 
     public SportShoes(final int size, final String color, final Material material,
                       final int price, final Seasons season,
                       final Role role, final String brand,
                       final String importedSportType,
-                      final boolean importedSpecialEnhancements) {
+                      final boolean impSpEnhancements) {
         super(size, color, material, price, season, role, brand);
         this.sportType = importedSportType;
-        this.specialEnhancements = importedSpecialEnhancements;
+        this.specEnhancements = impSpEnhancements;
     }
 
     @Override
     public String toString() {
         return super.toString()+ "sportType='" + sportType + '\''
-                + ", specialEnhancements=" + specialEnhancements + '}';
+                + ", specEnhancements=" + specEnhancements + '}';
+    }
+
+    @Override
+    public String getHeaders() {
+        return super.getHeaders() + ", Sport type, Special enhancements";
+    }
+
+    @Override
+    public String toCSV() {
+        return super.toCSV() + ", " + sportType + ", " + specEnhancements;
     }
 
     public String getSportType() {
@@ -28,11 +38,11 @@ public class SportShoes extends Shoes {
         this.sportType = importedSportType;
     }
 
-    public boolean isSpecialEnhancements() {
-        return specialEnhancements;
+    public boolean isSpecEnhancements() {
+        return specEnhancements;
     }
 
-    public void setSpecialEnhancements(final boolean importedSpecialEnhancements) {
-        this.specialEnhancements = importedSpecialEnhancements;
+    public void setSpecEnhancements(final boolean impSpEnhancements) {
+        this.specEnhancements = impSpEnhancements;
     }
 }
