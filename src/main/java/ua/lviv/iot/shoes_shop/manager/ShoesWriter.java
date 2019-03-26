@@ -11,14 +11,12 @@ public class ShoesWriter {
         final File myFile = new File("ShoesList");
         try (FileOutputStream fos = new FileOutputStream(myFile);
              OutputStreamWriter osw = new OutputStreamWriter(fos);
-             BufferedWriter buffReader = new BufferedWriter(osw)) {
+             BufferedWriter bufferedWriter = new BufferedWriter(osw)) {
 
             for (final Shoes shoes: listToWrite) {
-                buffReader.write(shoes.getHeaders() + "\n");
-                buffReader.write(shoes.toCSV() + "\n");
+                bufferedWriter.write(shoes.getHeaders() + "\n");
+                bufferedWriter.write(shoes.toCSV() + "\n");
             }
-        } finally {
-            System.out.println("Writing to file was successful");
         }
     }
 }
