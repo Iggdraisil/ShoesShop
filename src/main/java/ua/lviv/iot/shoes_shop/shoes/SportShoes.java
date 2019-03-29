@@ -16,7 +16,7 @@ public class SportShoes extends Shoes {
 
     @Override
     public String toString() {
-        return super.toString()+ "sportType='" + sportType + '\''
+        return super.toString() + "sportType='" + sportType + '\''
                 + ", specEnhancements=" + specEnhancements + '}';
     }
 

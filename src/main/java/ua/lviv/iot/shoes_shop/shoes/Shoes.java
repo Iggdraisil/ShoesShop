@@ -1,7 +1,16 @@
 package ua.lviv.iot.shoes_shop.shoes;
 
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Shoes {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int size;
     private String color;
     private Material material;

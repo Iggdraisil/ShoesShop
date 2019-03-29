@@ -1,6 +1,7 @@
 package ua.lviv.iot.shoes_shop.test;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.TestInstance;
 import ua.lviv.iot.shoes_shop.manager.ShoesShopManager;
 import ua.lviv.iot.shoes_shop.manager.ShoesWriter;
 import ua.lviv.iot.shoes_shop.manager.SortType;
@@ -21,12 +22,15 @@ import  org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ShoesShopManagerTest {
 
     private final List<Shoes> shoesList = new ArrayList<>();
 
     @BeforeAll @Test
     public final void setListForTesting(){
+        shoesList.clear();
+
         shoesList.add(new Shoes(42, "Blue", Material.LEATHER,
                 5000, Seasons.SUMMER, Role.MEN, "LaCosta"));
 
