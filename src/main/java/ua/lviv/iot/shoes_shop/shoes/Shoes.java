@@ -11,6 +11,8 @@ public class Shoes {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
+
     private int size;
     private String color;
     private Material material;
