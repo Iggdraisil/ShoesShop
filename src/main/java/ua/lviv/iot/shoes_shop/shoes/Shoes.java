@@ -1,7 +1,18 @@
 package ua.lviv.iot.shoes_shop.shoes;
 
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Shoes {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
+
     private int size;
     private String color;
     private Material material;
@@ -24,6 +35,17 @@ public class Shoes {
     }
 
     public Shoes() {
+    }
+
+    public Shoes(Shoes shoe, int id) {
+        this.setBrand(shoe.getBrand());
+        this.setColor(shoe.getColor());
+        this.setMaterial(shoe.getMaterial());
+        this.setPrice(shoe.getPrice());
+        this.setRole(shoe.getRole());
+        this.setSeason(shoe.getSeason());
+        this.setSize(shoe.getSize());
+        this.setId(id);
     }
 
     public String toString() {
@@ -97,5 +119,13 @@ public class Shoes {
 
     public void setBrand(final String importedBrand) {
         this.brand = importedBrand;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(final int id) {
+        this.id = id;
     }
 }
