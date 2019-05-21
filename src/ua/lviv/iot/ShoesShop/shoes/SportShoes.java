@@ -1,4 +1,4 @@
-package ua.lviv.iot.ShoesShop.shoes;
+package ua.lviv.iot.shoes_shop.shoes;
 
 public class SportShoes extends Shoes {
     private String sportType;

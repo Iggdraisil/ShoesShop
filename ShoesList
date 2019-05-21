@@ -1,0 +1,12 @@
+Size, Color, Material, Price, Season, Role, Brand
+42, Blue, LEATHER, 5000, SUMMER, MEN, LaCosta
+Size, Color, Material, Price, Season, Role, Brand
+46, Black, SHMIT, 500, SUMMER, WOMEN, Abibas
+Size, Color, Material, Price, Season, Role, Brand, Anatomic last, Supinator, Childs age
+23, White, LEATHER, 4000, SUMMER, CHILD, Antoshka, true, true, SEVEN_TO_TWELVE
+Size, Color, Material, Price, Season, Role, Brand, Anatomic last, Supinator, Childs age
+12, Rainbow, RUBBER, 1000, DEMISEASON, CHILD, Lolikon, false, true, ZERO_TO_THREE
+Size, Color, Material, Price, Season, Role, Brand, Sport type, Special enhancements
+39, Purple, DERAMANTINE, 3000, DEMISEASON, SPORT, Nike, Running, true
+Size, Color, Material, Price, Season, Role, Brand, Sport type, Special enhancements
+45, Blue, SHMIT, 100, SUMMER, SPORT, CoyoPC, Walking, false

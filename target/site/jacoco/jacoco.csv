@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+ShoesShop,ua.lviv.iot.ShoesShop.manager,SortType,0,24,0,0,0,3,0,1,0,1
+ShoesShop,ua.lviv.iot.ShoesShop.manager,ShoesShopManager,22,91,4,6,5,20,4,13,1,11
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,ChildsAge,0,34,0,0,0,4,0,1,0,1
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,ChildsShoes,21,44,0,0,9,6,6,2,6,2
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,Seasons,0,34,0,0,0,4,0,1,0,1
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,Material,0,44,0,0,0,5,0,1,0,1
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,Shoes,43,79,0,0,20,13,12,5,12,5
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,Role,0,54,0,0,0,6,0,1,0,1
+ShoesShop,ua.lviv.iot.ShoesShop.shoes,SportShoes,14,38,0,0,6,5,4,2,4,2
